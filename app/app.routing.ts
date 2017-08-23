@@ -10,6 +10,7 @@ import { OptionsDefaultComponent } from "./options-default.component";
 import { AnimateChildComponent } from "./animate-child.component";
 import { SelectorAllComponent } from "./selector-all.component";
 import { QueryStaggerComponent } from "./query-stagger.component";
+import { AnimationBuilderComponent } from "./animation-builder.component";
 
 const routes: Routes = [
     { path: "", pathMatch: "full", redirectTo: "list" },
@@ -22,6 +23,7 @@ const routes: Routes = [
     { path: "selector", component: SelectorAllComponent },
     { path: "query-stagger", component: QueryStaggerComponent },
     { path: "hero", loadChildren: "./hero/hero.module#HeroModule" },
+    { path: "animation-builder", component: AnimationBuilderComponent },
 ];
 
 @NgModule({
@@ -39,4 +41,5 @@ export const routedComponents = [
     AnimateChildComponent,
     SelectorAllComponent,
     QueryStaggerComponent,
+    AnimationBuilderComponent,
 ];

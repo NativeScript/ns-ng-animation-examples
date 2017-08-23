@@ -26,5 +26,6 @@ export class AnimationsListComponent {
         new Link("Animation with default options", "/options-default"),
         new Link("Animate child", "/animate-child"),
         new Link("Angular docs animations", "/hero"),
+        new Link("Animation Builder", "/animation-builder"),
     ]
 }
